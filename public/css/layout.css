@@ -32,8 +32,8 @@ body {
 
 header {
 	position: relative;
-	height: 850px;
-	min-height: 600px;
+	height: 800px;
+	min-height: 500px;
 	width: 100%;
 	background: #161415 url(../images/header-background.jpg) no-repeat top center;
 	background-size: cover !important;
@@ -83,7 +83,7 @@ header .banner-text hr {
 	width: 60%;
 	margin: 18px auto 24px auto;
 	border-color: #2f2d2e;
-	border-color: rgba(160, 160, 160, 0.1);
+	border-color: rgba(150, 150, 150, 0.1);
 }
 
 /* header social links */
@@ -109,7 +109,7 @@ header .social li a:hover {
 header .scrolldown a {
 	position: absolute;
 	bottom: 30px;
-	left: 60%;
+	left: 50%;
 	margin-left: -29px;
 	color: #fff;
 	display: block;
@@ -568,8 +568,8 @@ ul#nav li.current a {
 	transition: opacity 0.3s ease-in-out;
 
 	position: absolute;
-	top: 60%;
-	left: 60%;
+	top: 50%;
+	left: 50%;
 	margin-left: -15px;
 	margin-top: -15px;
 }
@@ -603,7 +603,7 @@ ul#nav li.current a {
 
 /* popup modal */
 .popup-modal {
-	max-width: 560px;
+	max-width: 550px;
 	background: #fff;
 	position: relative;
 	margin: 0 auto;
@@ -1135,7 +1135,7 @@ footer .social-links li:first-child {
 #go-top {
 	position: absolute;
 	top: -24px;
-	left: 60%;
+	left: 50%;
 	margin-left: -30px;
 }
 #go-top a {

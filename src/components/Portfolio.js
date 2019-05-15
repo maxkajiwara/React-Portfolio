@@ -14,7 +14,13 @@ export default class Porfolio extends Component {
 							{resumeData.portfolio &&
 								resumeData.portfolio.map(item => {
 									return (
-										<div className="columns portfolio-item">
+										<div
+											className="columns portfolio-item"
+											onClick={() => {
+												const win = window.open(item.projectUrl, '_blank');
+												win.focus();
+											}}
+										>
 											<div className="item-wrap">
 												<a href={item.projectUrl}>
 													<img src={`${item.imgurl}`} className="item-img" />

@@ -25,7 +25,7 @@ let resumeData = {
 	aboutme:
 		"As a graduate of Lambda School's Full Stack Web track, I've had a lot of experience working on group projects in a variety of roles. I enjoy learning new tools and improving my existing knowledge of languages, libraries, and coding techniques. I grew up in Hawaii but moved to the Bay Area because it feels like the right place to be.",
 	address: 'San Francisco',
-	website: 'maxkajiwar@gmail.com',
+	website: 'maxkajiwara@gmail.com',
 	education: [
 		{
 			UniversityName: 'Lambda School',
